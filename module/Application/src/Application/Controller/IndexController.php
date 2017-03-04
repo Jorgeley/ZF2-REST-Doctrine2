@@ -1,13 +1,12 @@
 <?php
 /**
- * Zend Framework (http://framework.zend.com/)
+ * Zend Framework REST with Doctrine sample
  *
- * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
- * @copyright Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
+ * @link    https://github.com/Jorgeley/ZF2-REST-Doctrine2
+ * @author  jorgeley@gmail.com
  */
-
 namespace Application\Controller;
+
 header("Access-Control-Allow-Origin: http://localhost");
 
 use Zend\Mvc\Controller\AbstractRestfulController;
